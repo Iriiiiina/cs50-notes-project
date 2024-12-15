@@ -1,0 +1,54 @@
+.note {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #f6f8ff;
+  margin-bottom: 14px;
+  border-radius: 10px;
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.note-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 6px;
+}
+
+.note-title p ,
+.note-title a {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note-title a {
+  overflow: hidden;
+}
+
+.note-body {
+  margin: 10px 0;
+  overflow: auto;
+}
+
+.note-body.view-mode {
+  max-height: 60px;
+}
+
+textarea {
+  width: 100%;
+}
+
+.note-footer {
+  margin-left: auto;
+  display: flex;
+}
+
+.btn.btn-outline-danger,
+.btn.btn-outline-info {
+  margin-right: 8px;
+}

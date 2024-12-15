@@ -1,8 +1,25 @@
 .main {
   display: flex;
   flex-direction: column;
-
   width: 400px;
+  padding: 14px;
+}
+
+.notes-list {
   max-height: 400px;
   overflow: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: none;
+}
+
+.menu.shown {
+  display: block;
 }

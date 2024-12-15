@@ -1,0 +1,9 @@
+.alert.alert-info.autosave-status {
+  padding: 4px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.autosave-status .form-check {
+  margin-left: 10px;
+}
